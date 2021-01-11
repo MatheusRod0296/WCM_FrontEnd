@@ -1,0 +1,41 @@
+.position{
+    background-color: grey;
+    float: left;
+
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #FFF;    
+}
+
+.position p{
+    font-size: 36px;
+    margin:  0 auto;
+    text-align: center;
+    vertical-align: middle;
+    
+}
+
+.title{
+    background-color: #FFF;
+    float: left;
+   
+    align-items: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 24px;
+    color: gray;
+}
+
+.row{
+    margin-bottom: 10px;
+}
+
+.row div{
+    height: 100px;
+    
+}

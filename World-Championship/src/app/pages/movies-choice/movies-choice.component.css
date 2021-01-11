@@ -1,14 +1,4 @@
-.jumbotron{
-   margin-top: 50px !important;
-   background-color: #6e6e6e;
-   color: #fff;
-}
-
-.jumbotron p:first-child{
-    color: #a8a8a8;
-}
-
-section div:first-child p, div.jumbotron p:nth-child(4){
+section div:first-child p{
     margin: 0px !important;
 }
 
@@ -30,9 +20,6 @@ section div:nth-child(2) button{
    float: right;
 }
 
-div.jumbotron{
-    text-align: center;   
-}
 
 .card-body div:first-child{
     float: left;
@@ -48,6 +35,13 @@ div.jumbotron{
 
 .movie-card{
     margin-bottom: 10px;
+}
+
+.btn-secondary {
+    background-color: #343434;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 15px
 }
 
 
