@@ -1,0 +1,40 @@
+<div class="jumbotron">
+    <p class="lead">CAMPEONATO DE FILMES</p>
+    <p class="display-4">Fase de seleção</p>
+    <hr class="my-4">
+    <p>Selecione 8 filmes que você deseje que entre na comeptição e depois pressione o </p>
+    <p>botão Gerar Meu Campeonato para prosseguir</p>
+</div>
+
+<section class="section-control">
+    <div>
+        <p>Selecionados</p>
+        <p>{{pickedMovies.length}} de 8 filmes</p>
+    </div>
+    <div>
+        <button class="btn btn-secondary" (click)="execute()">Gerar Meu Campeonato</button>
+    </div>
+
+</section>
+
+<div class="row" >
+    <div class="col-xl-4 col-md-6 movie-card" *ngFor="let movie of movies" >
+      <div class="card" >
+        <div class="card-body" >
+          <div>
+              <input type="checkbox"  
+              (change)="checkCheckBoxvalue(movie)"           
+             
+              [disabled]="IsDisabledCheckBox && !movie.checked"
+              >
+          </div> 
+          <div>
+            <h6 class="card-title">{{movie.titulo}}</h6>
+            <p class="card-text">{{movie.ano}}</p>
+          </div> 
+        </div>
+      </div>
+    </div>
+  
+  </div>
+

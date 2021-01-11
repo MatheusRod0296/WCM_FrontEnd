@@ -1,0 +1,53 @@
+.jumbotron{
+   margin-top: 50px !important;
+   background-color: #6e6e6e;
+   color: #fff;
+}
+
+.jumbotron p:first-child{
+    color: #a8a8a8;
+}
+
+section div:first-child p, div.jumbotron p:nth-child(4){
+    margin: 0px !important;
+}
+
+.section-control{
+    height: 60px;
+    color: #fff;
+}
+
+section div{
+    width: 50%;
+}
+
+section div{
+    float: left;  
+}
+
+
+section div:nth-child(2) button{
+   float: right;
+}
+
+div.jumbotron{
+    text-align: center;   
+}
+
+.card-body div:first-child{
+    float: left;
+    width: 15px;
+    position: absolute;  
+}
+
+.card-body div:nth-child(2){
+    float: left;
+    margin-left: 20px;
+    
+}
+
+.movie-card{
+    margin-bottom: 10px;
+}
+
+
