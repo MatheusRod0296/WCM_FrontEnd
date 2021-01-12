@@ -26,7 +26,3 @@
 - Agora para rodar a aplicação, abra o terminal na raiz do repositório e utilize o comando : ng serve 
 
 - abra o browser de sua preferência e acesse o endereço : [http://localhost:4200](http://localhost:4200)
-
-
-
-
