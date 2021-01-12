@@ -19,7 +19,7 @@
 - verifque se o Angular/cli esta instalado e qual a versão , utilize o comando: ng version
     - Caso precise instalar o Angular/cli,basta utilizar o comando : npm install -g @angular/cli
 
-- para instalar as dependências do projeto. Utilize o commando: npm install 
+- para instalar as dependências do projeto. Utilize o commando: npm install (Lembre-se de estar na raiz do projeto)
 
 - certifique-se de estar com o Back-end em execução. você pode encontra-lo nesse [repositório](https://github.com/MatheusRod0296/WCM_BackEnd)
 
