@@ -1,27 +1,32 @@
-# WorldChampionship
+### WCM_FrontEnd
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.3.
+## O que temos no projeto?
 
-## Development server
+### Angular 10 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### Ambiente de desenvolvimento
 
-## Code scaffolding
+ - Linux Mint 19.3
+ - VS Code
+ - Node.js 12.18.2 
+ - Angular 10
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+#### Rodando a aplicação localmente
 
-## Build
+- verifque se o node esta instalado e qual a versão , utilize o comando: node -v
+    - Caso precise instalar o Node.js, você ppode encontra-lo clicando [aqui](https://nodejs.org/en/download/current/)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+- verifque se o Angular/cli esta instalado e qual a versão , utilize o comando: ng version
+    - Caso precise instalar o Angular/cli,basta utilizar o comando : npm install -g @angular/cli
 
-## Running unit tests
+- para instalar as dependencias do projeto. Utilize o commando: npm install 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- certifique-se de estar com o Back-end em execução. voce pede encontra-lo nesse [repositório](https://github.com/MatheusRod0296/WCM_BackEnd)
 
-## Running end-to-end tests
+- Agora para rodar a aplicação, abra o terminal na raiz do repositório e utilize o comando : ng serve 
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+- abra o browser de sua preferência e acesse o endereço : [https://localhost:4200](https://localhost:4200)
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
