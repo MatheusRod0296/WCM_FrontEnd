@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "World-Championship"
+    }
+  },
+  "defaultProject": "World-Championship",
+  "cli": {
+    "analytics": false
+  }
 }

@@ -15,7 +15,7 @@ export class movieWorldChampionshipService{
       ) { }
 
       getMovies(): Observable<Array<MovieModel>> {    
-        var url = `${environment.api}/v1/Movie`;
+        var url = `${environment.api}/v1/movies`;
         return this.http.get<any>(url);
       }
 
